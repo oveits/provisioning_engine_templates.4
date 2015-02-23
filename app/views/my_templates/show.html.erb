@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>My template name:</strong>
+  <%= @my_template.my_template_name %>
+</p>
+
+<p>
+  <strong>My template type:</strong>
+  <%= @my_template.my_template_type %>
+</p>
+
+<p>
+  <strong>My template body:</strong>
+  <%= @my_template.my_template_body %>
+</p>
+
+<%= link_to 'Edit', edit_my_template_path(@my_template) %> |
+<%= link_to 'Back', my_templates_path %>
