@@ -1,4 +1,5 @@
 ActiveAdmin.register MyTemplate do
+  permit_params :my_template_name, :my_template_type, :my_template_body
 
 
   # See permitted parameters documentation:
